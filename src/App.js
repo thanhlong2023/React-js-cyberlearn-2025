@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-
-import DataBinding from './component/DataBinding/DataBinding';
+import HandleEvent from './component/HandleEvent/HandleEvent';
 
 function App() {
   return (
     <div className="App">
-      <DataBinding />
+      <HandleEvent />
     </div>
   );
 }
