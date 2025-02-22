@@ -1,14 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-import HandleEvent from './component/HandleEvent/HandleEvent';
-import ReaderingConditions from './component/ReaderingConditions/ReaderingConditions';
-import StateDemo from './State/StateDemo';
+import Styling from './component/Styling/Styling';
 
 function App() {
   return (
     <div className="App">
-      <StateDemo />
+      <Styling />
     </div>
   );
 }
